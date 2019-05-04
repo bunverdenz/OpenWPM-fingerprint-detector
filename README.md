@@ -1,4 +1,4 @@
-I use OpenWPM tools from https://github.com/mozilla/OpenWPM
+OpenWPM tools from https://github.com/mozilla/OpenWPM
 
 Install with `./install.sh` for Linux, but with `./install-mac-dev.sh` for mac. It seems like OpenWPM has not supported windows platform and other browser than Firefox yet (2019/05/05). Please see more details for developing with mac [below](#mac-osx).
 
