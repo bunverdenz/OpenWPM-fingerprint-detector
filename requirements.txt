@@ -1,0 +1,30 @@
+beautifulsoup4
+boto3
+Cython
+dill
+flake8
+flake8-isort
+IPython>=5.0,<6.0; python_version < '3.0'
+IPython>=5.0; python_version >= '3.0'
+mini-amf
+mmh3
+multiprocess
+numpy>=1.14
+pandas
+pillow
+plyvel
+psutil
+publicsuffix
+pyarrow
+pyasn1
+PyOPenSSL
+pytest
+python-dateutil
+pyvirtualdisplay
+s3fs
+selenium
+setuptools
+six
+tabulate
+tblib
+tld
