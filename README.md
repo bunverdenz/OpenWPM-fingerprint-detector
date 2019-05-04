@@ -1,3 +1,9 @@
+I use OpenWPM tools from https://github.com/mozilla/OpenWPM
+
+Install with `./install.sh` for Linux, but with `./install-mac-dev.sh` for mac. It seems like OpenWPM has not supported windows platform and other browser than Firefox yet (2019/05/05). Please see more details for developing with mac [below](#mac-osx).
+
+run `python detection_tool.py 'any_url'` in order to find fingerprint for specific url you enter. Below is the documentaion for OpenWPM tools for crawling trough website. Check out the fingerprint in `feature.csv` created in each column of fingerprint
+
 OpenWPM [![Build Status](https://travis-ci.org/mozilla/OpenWPM.svg?branch=master)](https://travis-ci.org/mozilla/OpenWPM)
 =======
 
@@ -423,7 +429,7 @@ additional dependencies, which can be installed by running `install-dev.sh`.
 Once installed, execute `py.test -vv` in the test directory to run all tests.
 
 
-### Mac OSX (Limited support for developers)
+### Mac OSX
 
 We've added an installation file to make it easier to run tests and develop on
 Mac OSX. To install the dependencies on Mac OSX, run `install-mac-dev.sh`
